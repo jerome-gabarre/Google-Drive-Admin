@@ -28,6 +28,8 @@ Rate-Limit Safe: Includes targeted delays (Utilities.sleep) to prevent HTTP 429 
 
 Data Privacy First: 100% runs within your Google Workspace. No external APIs, no data exfiltration.
 
+Built for Massive Datasets (Auto-Resume): Whether you are auditing 100 folders or bulk-updating 10,000 permissions, the script monitors its own execution time. If it approaches the 6-minute Google Apps Script timeout limit, it safely pauses, saves its progress, and automatically generates a time-based trigger to resume the batch in the background. You can start a massive job and close your laptop; the script handles the rest.
+
 🛠️ Installation & Setup
 
 Option A: The 1-Click Install (Recommended)
